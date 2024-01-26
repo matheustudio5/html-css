@@ -18,11 +18,6 @@ body{
     font-family: var(--fonte1);
 }
 
-
-p{
-    padding-bottom: 2em;
-}
-
 header{
     background-color: black;
     color: white;
@@ -60,6 +55,7 @@ section{
 
 section > p{
     font-family: var(--fonte3);
+    padding-bottom: 2em;
 }
 
 
@@ -82,7 +78,7 @@ section.imagem > p{
 }
 
 section#img1{
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -90,7 +86,7 @@ section#img1{
 }
 
 section#img2{
-    background-image: url('../imagens/background002.jpg');
+    background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
