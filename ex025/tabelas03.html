@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grande kkkkk</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        th{
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .numero{
+            text-align: right;
+        }
+
+        .position{
+            text-align: center;
+        }
+
+        #especial{
+            font-weight: bold;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Maiores Estados do Brasil</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">10 444 526</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">10 693 929</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">8 796 448</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">8 452 381</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">7 581 051</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">6 248 436</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total Habitantes</th>
+                <td class="numero" id="especial">220 789 981</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
